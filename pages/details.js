@@ -7,9 +7,9 @@ export default function Home() {
     <div>
       <Head>
         <link rel="shortcut icon" href="favicon.ico"/>
-        <title>Search Bikes</title>
+        <title>Bikes Details</title>
       </Head>
-      <PrincipalLayout pagina = "search"/>
+      <PrincipalLayout pagina="details"/>
 
     </div>
   )

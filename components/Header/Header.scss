@@ -1,0 +1,15 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    background: $background-dark;
+    min-height: 50px;
+}
+
+.header-light{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    background: $background-light;
+}
+

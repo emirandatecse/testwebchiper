@@ -1,0 +1,51 @@
+.bikes{
+    width: 100%;
+    margin-left: 10px;
+    .bikes-items{
+        display: flex;
+        width: 100%;
+        background-color:#f2f2f2;
+        min-height: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .title{
+            font-weight: 500;
+            color: $font-dark;
+        }
+        .title-red{
+            font-weight: 500;
+            color: $font-red;
+        }
+        .description{
+            font-weight: normal;
+            color: $font-grey;
+        }
+        .bikes-row{
+            padding: 10px;
+        }
+        .bikes-items-column{
+            display: grid;
+            grid-template-columns: 20% 80%;
+            width: 100%;
+        }
+        .bikes-images{
+            display: flex;
+            justify-content: center;
+            width: auto;
+            height: auto;
+            overflow: hidden;
+        }
+        .bikes-images-fixed{
+            width: 200px;
+            height: 200px;
+        }
+        .bikes-descripcion{
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            height: auto;
+            overflow: hidden;
+            
+        }
+    }
+}
